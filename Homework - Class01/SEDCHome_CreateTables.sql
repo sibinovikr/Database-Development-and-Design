@@ -9,7 +9,7 @@ CREATE TABLE dbo.Student
    DateOfBirth date NOT NULL,
    EnrolledDate date NOT NULL,
    Gender nchar (1) NOT NULL,
-   NationalIDNumber tinyint NOT NULL,
+   NationalIDNumber bigint NOT NULL,
    StudentCardNumber int NOT NULL
    CONSTRAINT [PK_Student] PRIMARY KEY CLUSTERED
    (
